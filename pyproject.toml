@@ -23,8 +23,8 @@ packaging = "*"
 sacremoses = "0.0.53"
 
 [tool.poetry.scripts]
-argos-translate = "bin.argos-translate"
-argospm = "bin.argospm"
+argos-translate = "argostranslate.cli:main"
+argospm = "argostranslate.argospm:main"
 
 [build-system]
 requires = ["poetry>=1.0"]
